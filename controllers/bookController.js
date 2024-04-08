@@ -1,7 +1,7 @@
 const sqlite3 = require('sqlite3').verbose();
 const _ = require('lodash');
-const DB_BOOK = '/Users/blake/Library/Containers/com.apple.iBooksX/Data/Documents/BKLibrary/BKLibrary-1-091020131601.sqlite';
-const DB_NOTE = '/Users/blake/Library/Containers/com.apple.iBooksX/Data/Documents/AEAnnotation/AEAnnotation_v10312011_1727_local.sqlite';
+const DB_BOOK = '/Users/blake/Library/Containers/Books/Data/Documents/BKLibrary/BKLibrary-1-091020131601.sqlite';
+const DB_NOTE = '/Users/blake/Library/Containers/Books/Data/Documents/AEAnnotation/AEAnnotation_v10312011_1727_local.sqlite';
 
 
 exports.getBooks = async (req, res) => {
